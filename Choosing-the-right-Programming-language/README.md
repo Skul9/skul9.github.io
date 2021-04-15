@@ -1,4 +1,4 @@
-# Choosing the right programming language.
+# Choosing the right programming language
 
 There are hundreds of programming languages available out there... Javascript, Python, Java and Rust are the some of the popular ones, but how to choose one to start with?
 
