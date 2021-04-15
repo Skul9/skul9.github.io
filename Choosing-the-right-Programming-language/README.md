@@ -23,7 +23,7 @@ The following are some points for choosing the right programming language.
 Certain programming languages are more suited for a particular field. For example, if you want to do Machine Learning (subset of AI), you would most probably use something like Python and not C.
 
 ### Speed
-Everybody wants their code to be executed quickly. Speed is a point which is very important when it comes to larger projects.
+Everybody wants their code to be executed quickly. Speed is an important criteria when it comes to [time critical applications](https://www.sciencedirect.com/science/article/pii/S1877050915030653)
 
 [This](https://github.com/drujensen/fib) is the test conducted by a GitHub user which calculates the time needed for the execution of a nth [Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number) number.
 
