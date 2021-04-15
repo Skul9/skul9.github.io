@@ -9,7 +9,7 @@ first we will have to understand what it is.
 
 ## Programming language
 
-A programming language is a language you use to write "programs". A program is basically a set of instructions and data you give to your computer (for example, a calculator app tells the computer to calculate 2+2 and then it gives you the result).
+A programming language is a language you use to write "computer programs". A program is basically a set of instructions and data you give to your computer (for example, a calculator app tells the computer to calculate 2+2 and then it gives you the result).
 
 The following are some points for choosing the right programming language.
 - Application
