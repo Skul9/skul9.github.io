@@ -1,9 +1,9 @@
 # The Super Ultra Programming quizzes:
 
-[Python](https://tinyurl.com/2fcpre6)
+[Python](https://tinyurl.com/yeal9wf7)
 
-[JavaScript](https://tinyurl.com/pqqux9a)
+[JavaScript](https://tinyurl.com/yeal9wf7)
 
-[C++](https://tinyurl.com/2fcpre6)
+[C++](https://tinyurl.com/yeal9wf7)
 
-[C](https://tinyurl.com/pqqux9a)
+[C](https://tinyurl.com/yeal9wf7)
