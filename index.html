@@ -1,7 +1,24 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="Woof Icon" href="favicon.ico" type="image/x-icon">
-  </head>
-  <h1>Hello_world</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="Speech Recognition">Speech  Recognition</label>
+    <input type="text" id="speechToText" placeholder="Speak something" onclick=record()>
+
+    <script>
+        function record(){
+            var recognition = new webkitSpeechRecognition();
+            recognition.lang = "en-IN";
+            recognition.onresult = function(event) {
+                console.log(event);
+            }
+            recognition.start();
+        }
+    </script>
+</body>
 </html>
