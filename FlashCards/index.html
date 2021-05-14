@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Flashcards</title>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="nav">
+        <h1>FlashBuddy</h1>
+        <div>
+          <button onclick="showCreateCardBox()">➕</button>
+          <button onclick="delFlashcards()">🗑️</button>
+        </div>
+      </div> 
+    </div>
+  </header>
+  
+  <div class="container">
+    <div class="create-card">
+      <h2 style="color: black;text-align: center;">Create Flashcard</h2>
+      <label for="question">Title</label>
+      <textarea id="question" maxlength="200"></textarea>
+      <label for="answer" maxlength="200">Description</label>
+      <br>
+      <textarea id="answer" class="description"  maxlength="150"></textarea>
+      <label for="subject">Select Subject</label>
+      <select name = "category" id="category">
+        <option value="Science">Science</option>
+        <option value="Maths">Maths</option>
+        <option value="History">History</option>
+        <option value="English">English</option>
+        <option value="Geography">Geography</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Marathi">Marathi</option>
+        <option value="General Knowledge">General Knowledge</option>
+      </select>
+      <div>
+        <button onclick="addFlashcard()">Save</button> <button onclick="hideCreateCardBox()">Close</button>
+      </div>
+    </div>
+    <div class="flashcards"></div>
+  </div>
+    
+  <script src="script.js"></script>
+</body>
+</html>
