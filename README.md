@@ -1,2 +1,4 @@
 # Skul9.github.io
-Github Pages
+
+My personal website!
+It is a part of a webring..
