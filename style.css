@@ -103,8 +103,9 @@ header#main-header div.side button {
 
 
 .avatar{
-  border: 2px;
-  color: #FFF;
+  width: 34px;
+  height: 34px;
+  margin: 0px 15px;
   border-radius: 50%;
 }
 
