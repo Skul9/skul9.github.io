@@ -108,14 +108,14 @@ div.banner {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #3BB9E3;
+  background: #1b1c27;
 }
 
 .bar {
   height: 60px;
   display: flex;
   justify-content: center;
-  background-color: #FFF;
+  background-color: #000000;
   box-shadow: 0 1px 1px #00000040;
 }
 
@@ -147,24 +147,24 @@ div.banner {
   height: 3px;
   bottom: 0;
   position: absolute;
-  background: #3BB9E3;
+  background: #1b1c27;
 }
 
 .bar .container ul li span {
-  color: #667580;
+  color: #81a1c1;
   font-size: 12px;
   font-weight: bold;
 }
 
 .bar .container ul li strong {
-  color: #667580;
+  color: #eceff4;
   font-size: 18px;
   margin-top: 2px;
   font-weight: bold;
 }
 
 .bar .container ul li.active strong {
-  color: #3BB9E3;
+  color: #eceff4;
 }
 
 .bar .container .actions button {
@@ -180,6 +180,6 @@ div.banner {
   font-weight: bold;
   border-radius: 16px;
   border: 1px solid #3BB9E3;
-  background-color: #FFF;
+  background-color: #000000;
 }
 
