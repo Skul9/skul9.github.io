@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css3?family=Nunito:wght@200&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2e3440;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  text-rendering: optimizeLegibility !important; /* font sempre com o melhor estilo possivel */
+  -webkit-font-smoothing: antialiased !important; /* font sempre com o melhor estilo possivel */
+  padding-bottom: 100px;
+}
+
+.avatar{
+  width: 176px;
+  border-radius: 50%;
+}
+
+.profile{
+  display:"inline";
+  position: absolute;
+  top:-88px;
+  left: 100px;
+}
+
+div.banner {
+  width: 100%;
+  height: 150px;
+  color: #9defff;
+  display: "inline";
+  position:relative;
+  background: #1b1c27;
+}
+
+.banner h1{
+  position: absolute;
+  left: 40%;
+  top:60px;
+}
+
+.wrapper-content{
+  display:"inline";
+  position: relative;
+  
+}
+
+.about{
+  color: white;
+  position: absolute;
+  top: 250px;
+  left: 60px;
+}
+
+.about span{
+  color: #9c9a9a;
+}
+
+.titlex{
+  position: absolute;
+  top: 100px;
+  font-size: 16px;
+}
+
+ /* Add a black background color to the top navigation */
+.topnav {
+  width: 40%;
+  overflow: hidden;
+  position: absolute;
+  left: 60%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #4a9eed;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.python{
+  background: #1b1c27;
+  width: 75px;
+  height: 20px;
+  align-items: space-around;
+  position: absolute;
+  top: 75px;
+}
+
+.python p{
+  font-size: 15px;
+}
+
+.blue{
+  border-radius:50%;
+  width:12px;
+}
+
+.js{
+  background: #1b1c27;
+  width: 100px;
+  height: 20px;
+  align-items: space-around;
+  position: absolute;
+  top: 75px;
+  left: 85px;
+}
+
+.js p{
+  font-size: 15px;
+}
+
+.yellow{
+  border-radius:50%;
+  width:12px;
+}
+
+.htmx{
+  background: #1b1c27;
+  width: 60px;
+  height: 20px;
+  align-items: space-around;
+  position: absolute;
+  top: 75px;
+  left: 200px;
+}
+
+.htmx p{
+  font-size: 15px;
+}
+
+.red{
+  border-radius:50%;
+  width:12px;
+}
+
+
+.whyy{
+  background: #1b1c27;
+  width: 60px;
+  height: 20px;
+  align-items: space-around;
+  position: absolute;
+  top: 105px;
+  left: 42px;
+}
+
+.whyy p{
+  font-size: 15px;
+}
+
+.green{
+  border-radius:50%;
+  width:12px;
+}
+
+.go{
+  background: #1b1c27;
+  width: 75px;
+  height: 20px;
+  align-items: space-around;
+  position: absolute;
+  top: 105px;
+  left: 125px;
+}
+
+.go p{
+  font-size: 15px;
+}
+
+.lblue{
+  border-radius:50%;
+  width:12px;
+}
+
+.abt-text{
+  color:#d8dee9;
+  position: absolute;
+  left: 27.5%;
+  top: 260px;
+}
+
+.abt-text p{
+  font-size: 27px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.abt-text a{
+  color: #9defff;
+}

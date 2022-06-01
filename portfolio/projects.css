@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css3?family=Nunito:wght@200&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2e3440;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  text-rendering: optimizeLegibility !important; /* font sempre com o melhor estilo possivel */
+  -webkit-font-smoothing: antialiased !important; /* font sempre com o melhor estilo possivel */
+  padding-bottom: 100px;
+}
+
+
+
+div.banner {
+  width: 100%;
+  height: 150px;
+  color: #9defff;
+  display: "inline";
+  position:relative;
+  background: #1b1c27;
+}
+
+.banner h1{
+  position: absolute;
+  left: 35%;
+  top:60px;
+}
+
+
+ /* Add a black background color to the top navigation */
+.topnav {
+  width: 40%;
+  overflow: hidden;
+  position: absolute;
+  left: 30%;
+  padding-bottom:40px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #4a9eed;
+  color: white;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+h4 {
+    font-family: "Arvo Bold";
+    color:#FFF;
+}
+
+p {
+    font-family: "Arvo";
+}
+
+.container {
+    margin: 20px 40px;
+    color: #81a1c1;
+}
+
+.heading {
+    padding: 20px;
+    padding-bottom: 40px;
+    font-size: 60px;
+    color:#2e3440; 
+}
+
+.lol {
+    padding-top: 80px;
+}
+
+.lmao {
+    padding-top: 80px;
+}
+
+.smae {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 80px;
+}
+.profile {
+    flex-basis: 270px;
+    font-size: 13px;
+    transition: font-size 400ms;
+}
+.profile:hover {
+    font-size: 15px;
+}
+
+.profile .profile-img {
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+    filter: grayscale(20%);
+    cursor: pointer;
+}
+.profile:hover .profile-img {
+    filter: grayscale(0);
+    height: 19em;
+    width: 19em;
+}
+
+.user-name {
+    color: var(--text-color-hover);
+    margin-top: 30px;
+    font-size: 35px;
+}
+.profile h4 {
+    font-size: 18 px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    /* color: #9defff; */
+}
+.profile p {
+    font-size: 1.25em;
+    margin-top: 2em;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1150px) {
+    .profiles {
+        flex-direction: column;
+    }
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile p {
+        text-align: center;
+        margin: 20px 60px 80px 60px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .heading {
+        font-size: 40px;
+        /* color: #9defff; */
+        text-align: center;
+    }
+    .heading span {
+        font-size: 15px;
+    }
+    .profiles {
+        margin: 20px 0;
+    }
+    .profile p {
+        margin: 20px 10px 80px 10px;
+    }
+}
