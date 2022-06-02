@@ -1,3 +1,5 @@
+<button type="button" onclick="location.href='https://skul9.github.io'" style="background: #18f98f; width:36%">Go back to skul9.github.io/blogs</button>
+
 # Choosing the right programming language
 
 There are hundreds of programming languages available out there... Javascript, Python, Java and Rust are the some of the popular ones, but how to choose one to start with?
@@ -96,4 +98,4 @@ Happy exploring,
 Sk9
 
 
-<button type="button" onclick="https://skul9.github.io">Go back</button>
+
