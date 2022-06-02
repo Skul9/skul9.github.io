@@ -91,6 +91,9 @@ If you ask me, i think python is the best language for you to start with, for a 
 - **Applications**, Python has a lot of applications, ranging from web dev to game dev to ML (Maching Learning). New programmers can play around with these and figure out for themselves which field they're most interested in, and then choose a different language to pursue it if they feel like it's better.
 
 
-Happy debugging,
+Happy exploring,
 
-Sk9, MetaStag|_Engrafa Team_
+Sk9
+
+
+<button type="button" onclick="https://skul9.github.io">Go back</button>
