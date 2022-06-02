@@ -1,97 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="portfolio/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>My profilee</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="portfolio/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>My profilee</title>
+  </head>
+  <body>
+    <div class="banner">
+      <h1>skul9.github.io</h1>
+    </div>
 
-
-  <div class="banner">
-    <h1>skul9.github.io</h1> 
-  </div>
-
- 
-  <div class="wrapper-content">
+    <div class="wrapper-content">
       <div class="profile">
-        <img src="portfolio/887323D3-BDF6-4041-A6AD-CCAA8266A8B0.jpeg" class="avatar" alt="Shounak Kulkarni">
+        <img
+          src="portfolio/887323D3-BDF6-4041-A6AD-CCAA8266A8B0.jpeg"
+          class="avatar"
+          alt="Shounak Kulkarni"
+        />
       </div>
-  </div>
+    </div>
 
-  <div class="about">
-        <h1>Shounak Kulkarni</h1>
-	<span><i>Sk9#7958</i></span>
-      
-	<div class="python">
-		<div style="display: inline-block; vertical-align:top;">
-			<img src="portfolio/index.jpg" class="blue">
-		</div>
-		<div style="display:inline-block">
-			<p>Python</p>
-		</div>
-	</div>
-	<div class="js">
-	  <div style="display: inline-block; vertical-align:top;">
-            <img src="portfolio/yellow.jpg" class="yellow">
+    <div class="about">
+      <h1>Shounak Kulkarni</h1>
+      <span><i>Sk9#7958</i></span>
+
+      <div class="chip-container">
+        <div class="python chip">
+          <div style="display: inline-block; vertical-align: top">
+            <img src="portfolio/index.jpg" class="blue" />
           </div>
-          <div style="display:inline-block">
+          <div style="display: inline-block">
+            <p>Python</p>
+          </div>
+        </div>
+        <div class="js chip">
+          <div style="display: inline-block; vertical-align: top">
+            <img src="portfolio/yellow.jpg" class="yellow" />
+          </div>
+          <div style="display: inline-block">
             <p>JavaScript</p>
           </div>
-
-	</div>
-	<div class="htmx">
-	 	<div style="display: inline-block; vertical-align:top;">
-            		<img src="portfolio/red.png" class="red">
-          	</div>
-          	<div style="display:inline-block">
-            		<p>HTML</p>
-          	</div>
-
-	</div>
-	<div class="whyy">
-	   <div style="display: inline-block; vertical-align:top;">
-                        <img src="portfolio/green.png" class="green">
-                </div>
-                <div style="display:inline-block">
-                        <p>CSS</p>
-                </div>
-
-	</div>
-	<div class="go">
-           <div style="display: inline-block; vertical-align:top;">
-                        <img src="portfolio/lblue.png" class="lblue">
-                </div>
-                <div style="display:inline-block">
-                        <p>GoLang</p>
-                </div>
-
         </div>
+        <div class="htmx chip">
+          <div style="display: inline-block; vertical-align: top">
+            <img src="portfolio/red.png" class="red" />
+          </div>
+          <div style="display: inline-block">
+            <p>HTML</p>
+          </div>
+        </div>
+        <div class="whyy chip">
+          <div style="display: inline-block; vertical-align: top">
+            <img src="portfolio/green.png" class="green" />
+          </div>
+          <div style="display: inline-block">
+            <p>CSS</p>
+          </div>
+        </div>
+        <div class="go chip">
+          <div style="display: inline-block; vertical-align: top">
+            <img src="portfolio/lblue.png" class="lblue" />
+          </div>
+          <div style="display: inline-block">
+            <p>GoLang</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  </div>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="portfolio/projects.html">Projects</a>
+      <a href="portfolio/blogs.html">Blogs</a>
+      <a href="portfolio/contact.html">Contact</a>
+      <a href="portfolio/webring.html">Webring</a>
+      <a href="https://github.com/Skul9">GitHub</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
-  <div class="topnav" id="myTopnav">
-	<a href="index.html" class="active">Home</a>
-	<a href="portfolio/projects.html">Projects</a>
-	<a href="portfolio/blogs.html">Blogs</a>
-  	<a href="portfolio/contact.html">Contact</a>
-  	<a href="portfolio/webring.html">Webring</a>
-  	<a href="https://github.com/Skul9">GitHub</a>
-  	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    	<i class="fa fa-bars"></i>
-  	</a>
-  </div>
+    <div class="abt-text">
+      <p
+        >Hello! My name is Shounak Kulkarni and I am 13 years old. I mostly do
+        projects in python and of ML-AI.</p
+      >
+      <p style="position: absolute; top: 100px"
+        >I have taken a Swayam course on algorithms offered by IIT Madras and
+        several courses on Udemy. I have contributed in
+        <a href="https://engrafa.github.io">Engrafa</a>.</p
+      >
 
+      <p style="position: absolute; top: 200px"
+        >Check out my projects using the navigation bar :)</p
+      >
+    </div>
 
-  <div class="abt-text">
-	  <p>Hello! My name is Shounak Kulkarni and I am 13 years old. I mostly do projects in python and of ML-AI.</p>
-	<p style="position:absolute; top: 100px;">I have taken a Swayam course on algorithms offered by IIT Madras and several courses on Udemy. I have contributed in <a href="https://engrafa.github.io">Engrafa</a>.</p>
-
-	<p style="position: absolute;top: 200px;">Check out my projects using the navigation bar :)</p>
-  </div>
-
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="skul9" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting! You can now buy me a coffee!" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
-</body>
+    <script
+      data-name="BMC-Widget"
+      data-cfasync="false"
+      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+      data-id="skul9"
+      data-description="Support me on Buy me a coffee!"
+      data-message="Thank you for visiting! You can now buy me a coffee!"
+      data-color="#5F7FFF"
+      data-position="Right"
+      data-x_margin="18"
+      data-y_margin="18"
+    ></script>
+  </body>
 </html>

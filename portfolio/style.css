@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css3?family=Nunito:wght@200&display=swap');
-
+@import url("https://fonts.googleapis.com/css3?family=Nunito:wght@200&display=swap");
 
 * {
   margin: 0;
@@ -16,15 +15,15 @@ body {
   padding-bottom: 100px;
 }
 
-.avatar{
+.avatar {
   width: 176px;
   border-radius: 50%;
 }
 
-.profile{
-  display:"inline";
+.profile {
+  display: "inline";
   position: absolute;
-  top:-88px;
+  top: -88px;
   left: 100px;
 }
 
@@ -33,40 +32,39 @@ div.banner {
   height: 150px;
   color: #9defff;
   display: "inline";
-  position:relative;
+  position: relative;
   background: #1b1c27;
 }
 
-.banner h1{
+.banner h1 {
   position: absolute;
   left: 40%;
-  top:60px;
+  top: 60px;
 }
 
-.wrapper-content{
-  display:"inline";
+.wrapper-content {
+  display: "inline";
   position: relative;
-  
 }
 
-.about{
+.about {
   color: white;
   position: absolute;
   top: 250px;
   left: 60px;
 }
 
-.about span{
+.about span {
   color: #9c9a9a;
 }
 
-.titlex{
+.titlex {
   position: absolute;
   top: 100px;
   font-size: 16px;
 }
 
- /* Add a black background color to the top navigation */
+/* Add a black background color to the top navigation */
 .topnav {
   width: 40%;
   overflow: hidden;
@@ -83,6 +81,7 @@ div.banner {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transition: all 300ms ease-in-out;
 }
 
 /* Change the color of links on hover */
@@ -102,113 +101,64 @@ div.banner {
   display: none;
 }
 
-.python{
-  background: #1b1c27;
-  width: 75px;
-  height: 20px;
-  align-items: space-around;
-  position: absolute;
-  top: 75px;
+.chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+  align-items: center;
+  width: 272px;
 }
 
-.python p{
+.chip {
+  background: #1b1c27;
+  width: fit-content;
+  margin: 5px;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+.chip p {
   font-size: 15px;
 }
 
-.blue{
-  border-radius:50%;
-  width:12px;
+.blue {
+  border-radius: 50%;
+  width: 12px;
 }
 
-.js{
-  background: #1b1c27;
-  width: 100px;
-  height: 20px;
-  align-items: space-around;
-  position: absolute;
-  top: 75px;
-  left: 85px;
+.yellow {
+  border-radius: 50%;
+  width: 12px;
 }
 
-.js p{
-  font-size: 15px;
+.red {
+  border-radius: 50%;
+  width: 12px;
 }
 
-.yellow{
-  border-radius:50%;
-  width:12px;
+.green {
+  border-radius: 50%;
+  width: 12px;
 }
 
-.htmx{
-  background: #1b1c27;
-  width: 60px;
-  height: 20px;
-  align-items: space-around;
-  position: absolute;
-  top: 75px;
-  left: 200px;
+.lblue {
+  border-radius: 50%;
+  width: 12px;
 }
 
-.htmx p{
-  font-size: 15px;
-}
-
-.red{
-  border-radius:50%;
-  width:12px;
-}
-
-
-.whyy{
-  background: #1b1c27;
-  width: 60px;
-  height: 20px;
-  align-items: space-around;
-  position: absolute;
-  top: 105px;
-  left: 42px;
-}
-
-.whyy p{
-  font-size: 15px;
-}
-
-.green{
-  border-radius:50%;
-  width:12px;
-}
-
-.go{
-  background: #1b1c27;
-  width: 75px;
-  height: 20px;
-  align-items: space-around;
-  position: absolute;
-  top: 105px;
-  left: 125px;
-}
-
-.go p{
-  font-size: 15px;
-}
-
-.lblue{
-  border-radius:50%;
-  width:12px;
-}
-
-.abt-text{
-  color:#d8dee9;
+.abt-text {
+  color: #d8dee9;
   position: absolute;
   left: 27.5%;
   top: 260px;
 }
 
-.abt-text p{
+.abt-text p {
   font-size: 27px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
-.abt-text a{
+.abt-text a {
   color: #9defff;
 }
